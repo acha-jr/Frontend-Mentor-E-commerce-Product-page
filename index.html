@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/
+favicon-32x32.png"
+    />
+    <title>Frontend Mentor | E-commerce product page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="pop">
+      <div class="pop-images-section">
+        <div class="pop-close">
+          <svg width="20px" height="21px" viewBox="0 0 20 21" version="1.1">
+            <g id="surface1">
+              <path
+                fill="white"
+                ;
+                style="stroke: none; fill-rule: evenodd; fill-opacity: 1"
+                d="M 16.566406 1.09375 L 19.597656 4.066406 L 13.027344 10.5 L 19.597656 16.933594 L 16.5625 19.90625 L 10 13.46875 L 3.4375 19.902344 L 0.402344 16.933594 L 6.96875 10.5 L 0.402344 4.066406 L 3.433594 1.09375 L 10 7.527344 Z M 16.566406 1.09375 "
+              />
+            </g>
+          </svg>
+        </div>
+        <div class="arrows">
+          <div class="pop-left">
+            <svg width="12" height="18">
+              <path
+                d="M11 1 3 9l8 8"
+                stroke="#1D2026"
+                stroke-width="3"
+                fill="none"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+          <div class="pop-right">
+            <svg width="13" height="18">
+              <path
+                d="m2 1 8 8-8 8"
+                stroke="#1D2026"
+                stroke-width="3"
+                fill="none"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="big-pop-images">
+          <img
+            bigpopimg1
+            class="big-pop-image"
+            src="./images/image-product-1.jpg"
+            alt=""
+          />
+          <img
+            bigpopimg2
+            class="big-pop-image"
+            src="./images/image-product-2.jpg"
+            alt=""
+          />
+          <img
+            bigpopimg3
+            class="big-pop-image"
+            src="./images/image-product-3.jpg"
+            alt=""
+          />
+          <img
+            bigpopimg4
+            class="big-pop-image"
+            src="./images/image-product-4.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <ul class="small-pop-images">
+        <li class="small-pop-image">
+          <img popimg1 src="./images/image-product-1-thumbnail.jpg" alt="" />
+        </li>
+        <li class="small-pop-image">
+          <img popimg2 src="./images/image-product-2-thumbnail.jpg" alt="" />
+        </li>
+        <li class="small-pop-image">
+          <img popimg3 src="./images/image-product-3-thumbnail.jpg" alt="" />
+        </li>
+        <li class="small-pop-image">
+          <img popimg4 src="./images/image-product-4-thumbnail.jpg" alt="" />
+        </li>
+      </ul>
+    </div>
+    <div class="dark-back"></div>
+    <header>
+      <img class="menu" src="./images/icon-menu.svg" alt="" />
+      <img class="logo" src="./images/logo.svg" alt="" />
+
+      <ul id="nav">
+        <img class="close-nav" src="./images/icon-close.svg" alt="" />
+        <li>Collection</li>
+        <li>Men</li>
+        <li>Women</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+
+      <div class="right-header">
+        <div class="cart-contain" cart-dropdown>
+          <div class="cart-button">
+            <div cart-dropdown-button class="count">0</div>
+            <img
+              cart-dropdown-button
+              class="cart"
+              src="./images/icon-cart.svg"
+            />
+          </div>
+          <section cart-details>
+            <h3>Cart</h3>
+            <section class="block-two">
+              <p class="empty-cart">Your cart is empty</p>
+              <div class="checkout">
+                <img
+                  class="product"
+                  src="./images/image-product-1-thumbnail.jpg"
+                  alt=""
+                />
+                <div class="cart-text">
+                  <p class="product-name">Fall Limited Edition Sneakers</p>
+                  <p>
+                    $125.00 x <span class="no-of-items"></span>
+                    <span class="total-price"></span>
+                  </p>
+                </div>
+                <img class="delete" src="./images/icon-delete.svg" alt="" />
+              </div>
+              <button class="checkout-button">Checkout</button>
+            </section>
+          </section>
+        </div>
+        <img class="avatar" src="./images/image-avatar.png" alt="" />
+      </div>
+    </header>
+    <main>
+      <div class="images">
+        <div class="big-images">
+          <img class="big-image" src="./images/image-product-1.jpg" alt="" />
+          <img class="big-image" src="./images/image-product-2.jpg" alt="" />
+          <img class="big-image" src="./images/image-product-3.jpg" alt="" />
+          <img class="big-image" src="./images/image-product-4.jpg" alt="" />
+        </div>
+        <div class="left">
+          <img src="./images/icon-previous.svg" alt="" />
+        </div>
+        <div class="right">
+          <img src="./images/icon-next.svg" alt="" />
+        </div>
+        <ul class="small-images">
+          <li>
+            <img
+              class="border"
+              small-img
+              img1
+              src="./images/image-product-1-thumbnail.jpg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              small-img
+              img2
+              src="./images/image-product-2-thumbnail.jpg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              small-img
+              img3
+              src="./images/image-product-3-thumbnail.jpg"
+              alt=""
+            />
+          </li>
+          <li>
+            <img
+              small-img
+              img4
+              src="./images/image-product-4-thumbnail.jpg"
+              alt=""
+            />
+          </li>
+        </ul>
+      </div>
+      <div class="details">
+        <h5>SNEAKER COMPANY</h5>
+        <h1>Fall Limited Edition Sneakers</h1>
+        <p>
+          These low-profile sneakers are your perfect casual wear companion.
+          Featuring a durable rubber outer sole, they'll withstand everything
+          the weather can offer.
+        </p>
+        <div class="price">
+          <h2>$125.00 <span>50%</span></h2>
+          <h3><strike>$250.00</strike></h3>
+        </div>
+        <div class="check">
+          <div class="counter">
+            <span class="remove"
+              ><img src="./images/icon-minus.svg" alt="" /></span
+            ><span class="number">0</span
+            ><span class="add"
+              ><img src="./images/icon-plus.svg" alt=""
+            /></span>
+          </div>
+          <button class="add-to-cart">
+            <img src="./images/icon-cart-white.svg" alt="" /> Add to cart
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/acha-jr" target="_blank">acha-jr</a>.
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
